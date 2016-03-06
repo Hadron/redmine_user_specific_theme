@@ -1,0 +1,4 @@
+*.rb /usr/share/redmine/plugins/redmine_user_specific_theme
+app /usr/share/redmine/plugins/redmine_user_specific_theme
+lib /usr/share/redmine/plugins/redmine_user_specific_theme
+config /usr/share/redmine/plugins/redmine_user_specific_theme

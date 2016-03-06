@@ -1,5 +1,6 @@
 require 'redmine'
 require 'redmine_user_specific_theme'
+require 'redmine_user_specific_theme/hooks'
 
 Rails.application.paths["app/overrides"] ||= []
 Rails.application.paths["app/overrides"] << File.expand_path("../app/overrides", __FILE__)
@@ -11,5 +12,5 @@ Redmine::Plugin.register :redmine_user_specific_theme do
   version     '1.0.0'
   url         'https://github.com/Undev/redmine_user_specific_theme'
 
-  requires_redmine :version_or_higher => '2.1'
+  requires_redmine :version_or_higher => '3.0'
 end

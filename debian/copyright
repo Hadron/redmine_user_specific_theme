@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: redmine_user_specific_theme
+Source: https://github.com/Undev/redmine_user_specific_theme
+
+Files: *
+Copyright: UNKNOWN
+License: UNKNOWN
